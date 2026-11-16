@@ -2,12 +2,14 @@
 
 > Prioritise the right accounts, understand why they matter, and inspect the evidence behind every recommendation.
 
-**Status:** v0.2 browser-first demonstration. **All account and signal data is fictional.** No live enrichment, web research, outreach or CRM sync is implemented yet.
+**Status:** v0.3 browser-first demonstration. **All account and signal data is fictional.** No live enrichment, web research, outreach or CRM sync is implemented yet.
 
 ## Why this exists
 Most outbound software focuses on writing more messages. AccountIQ starts earlier: which accounts deserve attention, what signals support that decision, and how can a GTM operator verify the reasoning?
 
-## Working features\n- Browser-only CSV import (up to 1,000 accounts) and ranked CSV export\n- Downloadable deterministic account briefs with explicit unverified hypotheses\n- Standalone dashboard demo that does not require the API to run
+## Working features
+- Import account-linked buying signals from CSV with source URLs and observation dates
+- Explicitly label imported evidence as user-supplied and **not independently verified**\n- Browser-only CSV import (up to 1,000 accounts) and ranked CSV export\n- Downloadable deterministic account briefs with explicit unverified hypotheses\n- Standalone dashboard demo that does not require the API to run
 - Interactive Next.js account intelligence dashboard
 - FastAPI scoring endpoint with configurable industry, geography and headcount ICP
 - Deterministic 100-point scoring with transparent component breakdown
@@ -57,3 +59,9 @@ This implementation is written as an original demonstration using standard open-
 
 ## License
 MIT. See LICENSE.
+
+## v0.3 signal CSV format
+
+First import accounts, then import a signal CSV with matching account names. Required columns: `account,type,description,source_url,observed_at`. Optional: `strength` (0–10). Dates use `YYYY-MM-DD`. Example: `Example Growth Labs,hiring,Opened a sales leadership role,https://example.com/jobs,2026-11-16,7`.
+
+**Evidence warning:** Providing a URL does not establish that its content supports the claim. The current browser-only app does not fetch, inspect, or independently verify sources. Imported files remain in browser memory. Scores are heuristics, not predictions. No AI-generated research is claimed.
