@@ -2,12 +2,12 @@
 
 > Prioritise the right accounts, understand why they matter, and inspect the evidence behind every recommendation.
 
-**Status:** v0.1 demonstration. **All account and signal data is fictional.** No live enrichment, web research, outreach or CRM sync is implemented yet.
+**Status:** v0.2 browser-first demonstration. **All account and signal data is fictional.** No live enrichment, web research, outreach or CRM sync is implemented yet.
 
 ## Why this exists
 Most outbound software focuses on writing more messages. AccountIQ starts earlier: which accounts deserve attention, what signals support that decision, and how can a GTM operator verify the reasoning?
 
-## Working features
+## Working features\n- Browser-only CSV import (up to 1,000 accounts) and ranked CSV export\n- Downloadable deterministic account briefs with explicit unverified hypotheses\n- Standalone dashboard demo that does not require the API to run
 - Interactive Next.js account intelligence dashboard
 - FastAPI scoring endpoint with configurable industry, geography and headcount ICP
 - Deterministic 100-point scoring with transparent component breakdown
@@ -15,7 +15,7 @@ Most outbound software focuses on writing more messages. AccountIQ starts earlie
 - 12 explicitly fictional companies across SaaS, agencies and freight
 - Python unit tests and GitHub Actions CI
 
-## Quick start
+## Quick start\nThe web dashboard can run without the Python API. CSV imports stay in browser memory and are not persisted.
 Requires Python 3.10+ and Node 20+.
 
 **Terminal 1 — API**
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-**Terminal 2 — dashboard**
+**Dashboard (can be run on its own)**
 ```bash
 cd apps/web
 npm install
@@ -44,7 +44,7 @@ python -m unittest discover -s tests -v
 Industry match (30) + employee-size fit (20) + region match (15) + capped signal strength (25) + evidenced-signal count (10). This is an illustrative heuristic, **not a validated probability of conversion**. See [methodology](docs/GTM_METHODOLOGY.md).
 
 ## Roadmap
-- v0.2: CSV import, saved ICP profiles, account briefs
+- v0.2: CSV import/export and deterministic account briefs (implemented); saved ICP profiles remain planned
 - v0.3: permitted public data connectors, real provenance and freshness controls
 - v0.4: model-assisted GTM hypotheses with human approval and grounded evaluations
 - v0.5: CRM integrations and audit trail
