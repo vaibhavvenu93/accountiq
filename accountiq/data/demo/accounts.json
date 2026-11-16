@@ -1,0 +1,208 @@
+[
+  {
+    "id": "demo-001",
+    "name": "Northstar Analytics",
+    "industry": "B2B SaaS",
+    "region": "UK",
+    "employees": 82,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-0"
+      },
+      {
+        "type": "expansion",
+        "description": "Fictional example: new market expansion",
+        "strength": 9,
+        "observed_at": "2026-11-03",
+        "source_url": "https://example.com/demo/expansion-0"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-002",
+    "name": "Helix Commerce",
+    "industry": "B2B SaaS",
+    "region": "EU",
+    "employees": 145,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-1"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-003",
+    "name": "Beacon Cloud",
+    "industry": "B2B SaaS",
+    "region": "US",
+    "employees": 36,
+    "website": "https://example.com",
+    "signals": [],
+    "demo": true
+  },
+  {
+    "id": "demo-004",
+    "name": "Vector Metrics",
+    "industry": "B2B SaaS",
+    "region": "UK",
+    "employees": 610,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-3"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-005",
+    "name": "Mosaic Studio",
+    "industry": "Agency",
+    "region": "UK",
+    "employees": 45,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-4"
+      },
+      {
+        "type": "expansion",
+        "description": "Fictional example: new market expansion",
+        "strength": 9,
+        "observed_at": "2026-11-03",
+        "source_url": "https://example.com/demo/expansion-4"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-006",
+    "name": "Orbit Creative",
+    "industry": "Agency",
+    "region": "EU",
+    "employees": 18,
+    "website": "https://example.com",
+    "signals": [],
+    "demo": true
+  },
+  {
+    "id": "demo-007",
+    "name": "Peak Demand",
+    "industry": "Agency",
+    "region": "US",
+    "employees": 92,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-6"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-008",
+    "name": "Ripple Digital",
+    "industry": "Agency",
+    "region": "UK",
+    "employees": 240,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-7"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-009",
+    "name": "Harbor Freightworks",
+    "industry": "Freight",
+    "region": "UK",
+    "employees": 130,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "expansion",
+        "description": "Fictional example: new market expansion",
+        "strength": 9,
+        "observed_at": "2026-11-03",
+        "source_url": "https://example.com/demo/expansion-8"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-010",
+    "name": "BlueLane Cargo",
+    "industry": "Freight",
+    "region": "EU",
+    "employees": 76,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-9"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-011",
+    "name": "Crossdock One",
+    "industry": "Freight",
+    "region": "US",
+    "employees": 21,
+    "website": "https://example.com",
+    "signals": [
+      {
+        "type": "hiring",
+        "description": "Fictional example: expanding commercial team",
+        "strength": 8,
+        "observed_at": "2026-11-01",
+        "source_url": "https://example.com/demo/signal-10"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-012",
+    "name": "Atlas Forwarding",
+    "industry": "Freight",
+    "region": "UK",
+    "employees": 580,
+    "website": "https://example.com",
+    "signals": [],
+    "demo": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "industries": [
+    "B2B SaaS"
+  ],
+  "regions": [
+    "UK",
+    "EU"
+  ],
+  "min_employees": 10,
+  "max_employees": 500
+}
